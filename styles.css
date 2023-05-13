@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #e9e3e3;
+}
+
+#banner{
+    background-image:linear-gradient(to bottom, rgba(28, 21, 32, 0.8), rgba(18, 18, 19, 0.8)), url(/image/istockphoto-519870714-1024x1024.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#call-to-action{
+    padding-top: 8%;
+
+}
+
+#call-to-action h1{
+    color: white;
+    font-size: 3.2rem;
+
+}
+
+#call-to-action h3{
+    color: yellow;
+    font-size: 1.7rem;
+}
+
+#column1 #column2{
+    flex-basis: 50%;
+    margin-top: 10%;
+    
+}
+
+#main-container{
+    display: flex;
+    width: 80%;
+    gap: 10rem;
+    margin-top: 10%;
+    
+}
+
+#thirdsection{
+    background-color: #E39E04;
+    display: flex;
+    justify-content: center;
+    margin:auto 0;
+}
+
+#column2{
+    width: 100%;  
+}
+
+#column1{
+    width: 100%;
+}
+
+form{
+    background-color: black;
+    padding: 5%;
+}
+
+.inputer{
+   width: 100%;  
+}
+
+input.inputer{
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+textarea.inputer{
+    padding: 3rem;
+
+}
+
+#button1{
+    background-color: black;
+    color: #e9e3e3;
+}
